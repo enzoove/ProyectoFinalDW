@@ -1,0 +1,137 @@
+@font-face {
+  font-family: fuenteTitulo;
+  src: url(../fonts/Press_Start_2P/PressStart2P-Regular.ttf);
+}
+@font-face {
+  font-family: fuenteTexto;
+  src: url(../fonts/Open_Sans/OpenSans-VariableFont_wdth\,wght.ttf);
+}
+.flexBasico, .curiosidades__datos article, .curiosidades__datos, .info, .cardBasica {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cardBasica {
+  flex-direction: column;
+  background-color: rgba(108, 92, 231, 0.5019607843);
+  border: 2px solid #6c5ce7;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: fuenteTexto;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  font-family: fuenteTitulo;
+}
+
+main {
+  flex-grow: 1;
+  background-image: url(../img/assets/background.webp);
+  background-size: cover;
+}
+
+.bienvenida {
+  color: white;
+  margin: 15px 5px;
+  line-height: 8px;
+  text-align: center;
+}
+
+.bienvenida p {
+  font-size: 1.4rem;
+}
+
+.bienvenida h1 {
+  color: #6c5ce7;
+  font-size: 2.5rem;
+}
+
+.bienvenida h1 span {
+  color: #00cec9;
+}
+
+.bienvenida .eslogan {
+  font-size: 1.4rem;
+}
+
+.info {
+  align-items: baseline;
+  flex-wrap: wrap;
+  margin: auto;
+  color: #fff;
+}
+
+.info article {
+  width: 320px;
+}
+
+.info h3 {
+  color: #00cec9;
+  font-size: 1.3rem;
+  text-align: center;
+  margin-top: 5px;
+}
+
+.info p {
+  margin: auto 5px;
+}
+
+.info ul, .info li {
+  list-style-type: none;
+}
+
+.info ul {
+  margin-bottom: 0;
+}
+
+.info a {
+  text-decoration: none;
+  color: #00cec9;
+}
+
+.curiosidades {
+  color: #fff;
+  margin: 15px auto;
+  text-align: center;
+}
+
+.curiosidades h3 {
+  color: #00cec9;
+  font-family: fuenteTitulo;
+}
+
+.curiosidades__datos {
+  align-items: baseline;
+  flex-wrap: wrap;
+  align-items: stretch;
+}
+
+.curiosidades__datos article {
+  flex-direction: column;
+  width: 310px;
+  margin: 5px;
+  height: 120px;
+  border: 2px solid #6c5ce7;
+  border-radius: 5%;
+}
+
+.curiosidades__datos__titulo {
+  color: #6c5ce7;
+  font-weight: bold;
+}
+
+footer {
+  height: 50px;
+  color: #fff;
+  text-align: center;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,12 @@
+.flexBasico{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cardBasica{
+    @extend .flexBasico;
+    flex-direction: column;
+    background-color: $colorBgPrimario;
+    border: 2px solid $colorPrimario;
+    box-sizing: border-box;
+}

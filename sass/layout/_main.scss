@@ -1,0 +1,89 @@
+main{
+    flex-grow: 1;
+    background-image: url(../img/assets/background.webp);
+    background-size: cover;
+}
+
+// Index
+.bienvenida{
+    color: white;
+    margin: 15px 5px;
+    line-height: 8px;
+    text-align: center;
+}
+.bienvenida p{
+    font-size: 1.4rem;
+}
+.bienvenida h1{
+    color: $colorPrimario;
+    
+    font-size: 2.5rem;
+}
+.bienvenida h1 span{
+    color: $colorSecundario;
+}
+.bienvenida .eslogan{
+    font-size: 1.4rem;
+}
+.info{
+    @extend .flexBasico;
+    align-items: baseline;
+    flex-wrap: wrap;
+    margin: auto;
+    color: $colorTexto;
+}
+.info article{
+    width: 320px;
+}
+.info h3{
+    color: $colorSecundario;
+    font-size: 1.3rem;
+    text-align: center;
+    margin-top: 5px;
+}
+.info p{
+    margin: auto 5px;
+}
+.info ul, .info li{
+    list-style-type: none;
+
+}
+.info ul{
+    margin-bottom: 0;
+}
+.info a{
+    text-decoration: none;
+    color: $colorSecundario;
+}
+.curiosidades{
+    color: $colorTexto;
+    margin: 15px auto;
+    text-align: center;
+    
+}
+.curiosidades h3{
+    color: $colorSecundario;
+    font-family: fuenteTitulo;
+}
+.curiosidades__datos{
+    @extend .flexBasico;
+    align-items: baseline;
+    flex-wrap: wrap;
+    align-items: stretch
+}
+.curiosidades__datos article{
+    @extend .flexBasico;
+    flex-direction: column;
+    width: 310px;
+    margin: 5px;
+    height:120px;
+    border: 2px solid $colorPrimario;
+    border-radius: 5%;
+}
+.curiosidades__datos__titulo{
+    color: $colorPrimario;
+    font-weight: bold;
+}
+
+
+

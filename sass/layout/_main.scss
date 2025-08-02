@@ -15,8 +15,6 @@ main{
     font-size: 1.4rem;
 }
 .bienvenida h1{
-    color: $colorPrimario;
-    
     font-size: 2.5rem;
 }
 .bienvenida h1 span{
@@ -84,5 +82,56 @@ main{
     font-weight: bold;
 }
 
-
-
+// Productos
+.catalogo{
+    @extend .cardBasica;
+    background-color: $colorBgSecundario;
+}
+.catalogo h2{
+    color: $colorSecundario;
+    font-family: fuenteTitulo;
+}
+.catalogo__consolas{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+}
+.catalogo__juegos{
+    @extend .flexBasico;
+    flex-wrap: wrap;
+}
+.cardProducto{
+    @extend .cardBasica;
+    height: 380px;
+    width: 280px;
+    background-color: $colorBgSecundario;
+    margin: 10px;
+}
+.cardProducto img{
+    width: 180px;
+    height: 200px;
+    margin-top: 10px;
+}
+.cardProducto h3{
+    color: $colorTexto;
+    text-align: center;
+    font-size: 1.5rem;
+}
+.cardProducto__precio{
+    color: $colorDinero;
+    font-size: 1.4rem;
+    font-weight: bold;
+    margin: 5px auto;
+    background-color: #27ae5f42;
+    border-radius: 10%;
+}
+.cardProducto button{
+    background-color: $colorBgPrimario;
+    color: $colorTexto;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.cardProducto button:hover{
+    background-color: $colorPrimario;
+}
+// Sobre nosotros

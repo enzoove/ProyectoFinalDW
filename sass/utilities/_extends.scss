@@ -5,6 +5,7 @@
 }
 .cardBasica{
     @extend .flexBasico;
+    justify-content: space-between;
     flex-direction: column;
     border: 2px solid $colorPrimario;
     box-sizing: border-box;

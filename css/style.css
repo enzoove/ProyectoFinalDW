@@ -6,13 +6,14 @@
   font-family: fuenteTexto;
   src: url(../fonts/Open_Sans/OpenSans-VariableFont_wdth\,wght.ttf);
 }
-.flexBasico, .curiosidades__datos, .info, .cardBasica, .curiosidades__datos article {
+.flexBasico, .catalogo__juegos, .curiosidades__datos, .info, .cardBasica, .cardProducto, .catalogo, .curiosidades__datos article {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.cardBasica, .curiosidades__datos article {
+.cardBasica, .cardProducto, .catalogo, .curiosidades__datos article {
+  justify-content: space-between;
   flex-direction: column;
   border: 2px solid #6c5ce7;
   box-sizing: border-box;
@@ -29,6 +30,9 @@ body {
 
 h1 {
   font-family: fuenteTitulo;
+  color: #6c5ce7;
+  text-align: center;
+  font-size: 2rem;
 }
 
 main {
@@ -49,7 +53,6 @@ main {
 }
 
 .bienvenida h1 {
-  color: #6c5ce7;
   font-size: 2.5rem;
 }
 
@@ -124,6 +127,64 @@ main {
 .curiosidades__datos__titulo {
   color: #6c5ce7;
   font-weight: bold;
+}
+
+.catalogo {
+  background-color: rgba(0, 206, 203, 0.0470588235);
+}
+
+.catalogo h2 {
+  color: #00cec9;
+  font-family: fuenteTitulo;
+}
+
+.catalogo__consolas {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+}
+
+.catalogo__juegos {
+  flex-wrap: wrap;
+}
+
+.cardProducto {
+  height: 380px;
+  width: 280px;
+  background-color: rgba(0, 206, 203, 0.0470588235);
+  margin: 10px;
+}
+
+.cardProducto img {
+  width: 180px;
+  height: 200px;
+  margin-top: 10px;
+}
+
+.cardProducto h3 {
+  color: #fff;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.cardProducto__precio {
+  color: #27ae60;
+  font-size: 1.4rem;
+  font-weight: bold;
+  margin: 5px auto;
+  background-color: rgba(39, 174, 95, 0.2588235294);
+  border-radius: 10%;
+}
+
+.cardProducto button {
+  background-color: rgba(108, 92, 231, 0.5019607843);
+  color: #fff;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.cardProducto button:hover {
+  background-color: #6c5ce7;
 }
 
 footer {

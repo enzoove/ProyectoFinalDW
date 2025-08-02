@@ -12,6 +12,9 @@ body{
 }
 h1{
     font-family: fuenteTitulo;
+    color: $colorPrimario;
+    text-align: center;
+    font-size: 2rem;
 }
 
 @import "./layout/header";

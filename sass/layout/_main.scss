@@ -191,3 +191,75 @@ main{
     margin: 3px;
     width: 43.75%;
 }
+// Sobre nosotros
+.subtitulo{
+    color: $colorSecundario;
+    text-align: center;
+    width: 100%;
+}
+.quienesSomos{
+    color: $colorTexto;
+}
+.quienesSomos p{
+    color: $colorTexto;
+    text-align: center;
+}
+.deposito{
+    @extend .flexBasico;
+    flex-wrap: wrap;
+}
+.deposito img{
+    width: 320px;
+    box-sizing: border-box;
+    border: 2px solid $colorPrimario;
+}
+.deposito p{
+    width: 320px;
+    margin: 10px;
+    box-sizing: border-box;
+    color: $colorTexto;
+}
+.vision{
+    @extend .flexBasico;
+    align-items: baseline;
+    flex-wrap: wrap;
+}
+.vision__imagen{
+    width: 320px;
+    margin: 0;
+}
+.vision__imagen img{
+    width: 320px;
+}
+.vision__imagen h2{
+    color: $colorPrimario;
+    font-size: 2.5rem;
+}
+.vision p{
+    color: $colorTexto;
+    font-size: 1.5rem;
+    width: 320px;
+    text-align: center;
+}
+.valores{
+    @extend .flexBasico;
+    align-items: baseline;
+    flex-wrap: wrap;
+}
+.valores__imagen{
+    width: 320px;
+    margin: 0;
+}
+.valores__imagen img{
+    width: 320px;
+}
+.valores__imagen h2{
+    color: $colorPrimario;
+    font-size: 2.5rem;
+}
+.valores p{
+    color: $colorTexto;
+    font-size: 1.5rem;
+    width: 320px;
+    text-align: center;
+}

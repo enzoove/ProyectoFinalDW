@@ -6,7 +6,7 @@
   font-family: fuenteTexto;
   src: url(../fonts/Open_Sans/OpenSans-VariableFont_wdth\,wght.ttf);
 }
-.flexBasico, .historiaGBA__intro, .historiaGBA, .catalogo__juegos, .curiosidades__datos, .info, .cardBasica, .cardProducto, .catalogo, .curiosidades__datos article {
+.flexBasico, .valores, .vision, .deposito, .historiaGBA__intro, .historiaGBA, .catalogo__juegos, .curiosidades__datos, .info, .cardBasica, .cardProducto, .catalogo, .curiosidades__datos article {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -33,6 +33,7 @@ h1 {
   color: #6c5ce7;
   text-align: center;
   font-size: 2rem;
+  margin: 20px;
 }
 
 main {
@@ -249,6 +250,90 @@ main {
 .lineaDeTiempo__suceso p {
   margin: 3px;
   width: 43.75%;
+}
+
+.subtitulo {
+  color: #00cec9;
+  text-align: center;
+  width: 100%;
+}
+
+.quienesSomos {
+  color: #fff;
+}
+
+.quienesSomos p {
+  color: #fff;
+  text-align: center;
+}
+
+.deposito {
+  flex-wrap: wrap;
+}
+
+.deposito img {
+  width: 320px;
+  box-sizing: border-box;
+  border: 2px solid #6c5ce7;
+}
+
+.deposito p {
+  width: 320px;
+  margin: 10px;
+  box-sizing: border-box;
+  color: #fff;
+}
+
+.vision {
+  align-items: baseline;
+  flex-wrap: wrap;
+}
+
+.vision__imagen {
+  width: 320px;
+  margin: 0;
+}
+
+.vision__imagen img {
+  width: 320px;
+}
+
+.vision__imagen h2 {
+  color: #6c5ce7;
+  font-size: 2.5rem;
+}
+
+.vision p {
+  color: #fff;
+  font-size: 1.5rem;
+  width: 320px;
+  text-align: center;
+}
+
+.valores {
+  align-items: baseline;
+  flex-wrap: wrap;
+}
+
+.valores__imagen {
+  width: 320px;
+  margin: 0;
+}
+
+.valores__imagen img {
+  width: 320px;
+}
+
+.valores__imagen h2 {
+  color: #6c5ce7;
+  font-size: 2.5rem;
+}
+
+.valores p {
+  color: #fff;
+  font-size: 1.5rem;
+  width: 320px;
+  text-align: center;
 }
 
 footer {

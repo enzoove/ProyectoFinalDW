@@ -6,7 +6,7 @@
   font-family: fuenteTexto;
   src: url(../fonts/Open_Sans/OpenSans-VariableFont_wdth\,wght.ttf);
 }
-.flexBasico, .valores, .vision, .deposito, .historiaGBA__intro, .historiaGBA, .catalogo__juegos, .curiosidades__datos, .info, .cardBasica, .cardProducto, .catalogo, .curiosidades__datos article {
+.flexBasico, .formularioContacto form, .valores, .vision, .deposito, .historiaGBA__intro, .historiaGBA, .catalogo__juegos, .curiosidades__datos, .info, .cardBasica, .cardProducto, .catalogo, .curiosidades__datos article {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -334,6 +334,55 @@ main {
   font-size: 1.5rem;
   width: 320px;
   text-align: center;
+}
+
+.formularioContacto {
+  margin: auto;
+  text-align: center;
+  color: #fff;
+  border: 2px solid #00cec9;
+  width: 310px;
+}
+
+.formularioContacto h2 {
+  color: #00cec9;
+}
+
+.formularioContacto form {
+  flex-direction: column;
+}
+
+.formularioContacto input, .formularioContacto select {
+  width: 200px;
+  text-align: center;
+  margin: 5px;
+}
+
+.formularioContacto button {
+  background-color: rgba(0, 206, 203, 0.0470588235);
+  border: 2px solid #00cec9;
+  color: #fff;
+  margin: 5px;
+  width: 150px;
+  font-size: 1.2rem;
+}
+
+.formularioContacto button:hover {
+  background-color: rgba(108, 92, 231, 0.5019607843);
+  border: 2px solid #6c5ce7;
+}
+
+.preguntasFrecuentes {
+  color: #fff;
+  text-align: center;
+}
+
+.preguntasFrecuentes h2 {
+  color: #00cec9;
+}
+
+.preguntasFrecuentes h3 {
+  font-size: 1.5rem;
 }
 
 footer {

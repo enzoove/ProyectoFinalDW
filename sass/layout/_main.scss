@@ -263,3 +263,46 @@ main{
     width: 320px;
     text-align: center;
 }
+// Contacto
+.formularioContacto{
+    margin: auto;
+    text-align: center;
+    color: $colorTexto;
+    border: 2px solid $colorSecundario;
+    width: 310px;
+}
+.formularioContacto h2{
+    color: $colorSecundario;
+}
+.formularioContacto form{
+    @extend .flexBasico;
+    flex-direction: column;
+}
+.formularioContacto input, .formularioContacto select{
+    width: 200px;
+    text-align: center;
+    margin: 5px;
+}
+.formularioContacto button{
+    background-color: $colorBgSecundario;
+    border: 2px solid $colorSecundario;
+    color: $colorTexto;
+    margin: 5px;
+    width: 150px;
+    font-size: 1.2rem;
+}
+.formularioContacto button:hover{
+    background-color: $colorBgPrimario;
+    border: 2px solid $colorPrimario;
+}
+.preguntasFrecuentes{
+    color: $colorTexto;
+    text-align: center;
+}
+.preguntasFrecuentes h2{
+    color: $colorSecundario;
+}
+.preguntasFrecuentes h3{
+    font-size: 1.5rem;
+}
+

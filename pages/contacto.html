@@ -39,7 +39,43 @@
             </div>
         </nav>
     </header>
-    <main></main>
+    <main>
+        <h1>Contacto</h1>
+        <section class="formularioContacto bg-dark">
+            <h2>Tu mensaje hace la diferencia</h2>
+            <form>
+                <label for="nombre">Nombre:</label>
+                <input type="text" placeholder="Nombre" required>
+                <label for="apellido">Apellido:</label>
+                <input type="text" placeholder="Apellido" required>
+                <label for="email">Correo electrónico:</label>
+                <input type="text" placeholder="Correo electrónico" required>
+                <select name="asunto" required>
+                    <option disabled selected>Selecciona un asunto</option>
+                    <option>Consulta general</option>
+                    <option>Soporte</option>
+                    <option>Reclamo</option>
+                    <option>Sugerencia</option>
+                </select>
+                <label for="mensaje">Mensaje:</label>
+                <textarea name="mensaje" id="mensaje" rows="8" placeholder="Escribi tu mensaje..." required></textarea>
+                <button>ENVIAR</button>
+            </form>
+        </section>
+        <section class="preguntasFrecuentes">
+            <h2>Preguntas frecuentes</h2>
+            <h3>¿Hacen envios a todo el pais?</h3>
+            <p>Si, hacemos envios a todo el pais.</p>
+            <h3>¿Cuanto tardan en responder?</h3>
+            <p>Respondemos dentro de las 24hs habiles</p>
+            <h3>¿Que métodos de pago aceptan?</h3>
+            <p>Aceptamos tarjetas de crédito, débito, transferencia bancaria y mercado pago</p>
+            <h3>¿Puedo cancelar o modificar mi pedido despues de comprar?</h3>
+            <p>Si, contactanos lo antes posible para gestionar cambios o cancelaciones</p>
+            <h3>¿Puedo retirar mi pedido en algún local físico?</h3>
+            <p>Actualmente no contamos con local físico para retiro, pero planeamos abrir uno pronto</p>
+        </section>
+    </main>
     <footer class="bg-dark">
         <p>© 2025 Advance Gaming. Todos los derechos reservados.</p>
     </footer>

@@ -391,4 +391,50 @@ footer {
   text-align: center;
 }
 
+@media (min-width: 427px) {
+  footer {
+    height: 25px;
+  }
+}
+@media (min-width: 500px) {
+  .formularioContacto {
+    width: 450px;
+  }
+}
+@media (min-width: 570px) {
+  .bienvenida h1 {
+    font-size: 5rem;
+  }
+  .bienvenida p {
+    font-size: 2.5rem;
+  }
+  .bienvenida .eslogan {
+    font-size: 2.5rem;
+  }
+}
+@media (min-width: 604px) {
+  .catalogo__consolas {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+}
+@media (min-width: 1130px) {
+  .bienvenida h1 {
+    font-size: 10rem;
+  }
+  .bienvenida p {
+    font-size: 5rem;
+    margin-top: 30px;
+  }
+  .bienvenida .eslogan {
+    font-size: 5rem;
+  }
+}
+@media (min-width: 1204px) {
+  .catalogo__consolas {
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
